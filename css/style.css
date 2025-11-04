@@ -2,8 +2,44 @@
     margin:0px;
     padding:0px;
     box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main{
+    width:80%;
+    margin:0px auto;
+    
 }
 
 h1{
+    font-size: 50px;
+    color:salmon;
+    background-color: bisque;
+}
 
+h1,
+ul{
+  margin:20px auto;
+  text-align:center;
+}
+
+.recipe{
+    display: inline-block;
+    margin:20px;
+}
+
+.recipe a{
+    text-decoration: none;
+    color:salmon;
+    font-size: 20px;
+}
+
+.recipe a img{
+    display: block;
+    
+}
+
+img{
+    width:200px;
+    height:auto;
 }
